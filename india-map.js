@@ -276,6 +276,24 @@ const STATE_CENTER_DATA = {
 
   'DamanandDiu': [
     {city: 'Daman', count: 556}
+  ],
+
+  'Uttaranchal': [
+        { city: 'Dehradun', count: 1230 },
+    { city: 'Haridwar', count: 1345 },
+    { city: 'Roorkee', count: 1830 },
+    { city: 'Rishikesh', count: 1023 }
+  ],
+
+  'Chandigarh': [
+     { city: 'Chandigarh', count: 4536 }
+  ],
+
+  'HimachalPradesh': [
+            { city: 'Shimla', count: 1230 },
+    { city: 'Dharamshala', count: 1765 },
+    { city: 'Mandi', count: 1100 },
+    { city: 'Solan', count: 678 }
   ]
 };
 
