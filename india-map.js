@@ -267,8 +267,16 @@ const STATE_CENTER_DATA = {
 
   'Lakshadweep': [
     {city: 'Kavaratti', count: 700}
-  ]
+  ],
 
+  'DadraandNagarHaveli':
+    [
+      {city: 'Silvassa', count: 456}
+    ],
+
+  'DamanandDiu': [
+    {city: 'Daman', count: 556}
+  ]
 };
 
 const overlay = document.getElementById('map-modal-overlay');
