@@ -44,7 +44,7 @@ const STATE_DATA = Object.fromEntries(
 // Add or replace city/count rows here when the center dataset is available.
 const STATE_CENTER_DATA = {
 
-  'Andhra Pradesh': [
+  'AndhraPradesh': [
     { city: 'Anantapur', count: 300 },
     { city: 'Guntur', count: 200 },
     { city: 'Kurnool', count: 175 },
@@ -54,7 +54,7 @@ const STATE_CENTER_DATA = {
     { city: 'Vijayawada', count: 1380 },
     { city: 'Visakhapatnam', count: 1540 },
   ],
-  'Arunachal Pradesh': [
+  'ArunachalPradesh': [
     { city: 'Itanagar/Naharlagun', count: 1070 },
   ],
   'Assam': [
@@ -255,6 +255,18 @@ const STATE_CENTER_DATA = {
 
   'Goa': [
     {city: 'Goa', count: 4657 }
+  ],
+
+  'Puducherry': [
+    {city: 'Puducherry', count: 3234}
+  ],
+
+  'AndamanandNicobar': [
+    {city: 'Port Blair', count: 2983}
+  ],
+
+  'Lakshadweep': [
+    {city: 'Kavaratti', count: 700}
   ]
 
 };
