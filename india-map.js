@@ -102,7 +102,7 @@ const STATE_CENTER_DATA = {
     { city: 'Faridabad', count: 1345 },
     { city: 'Rohtak', count: 1656 },
   ],
-  'Jammu & Kashmir': [
+  'JammuandKashmir': [
     { city: 'Jammu', count: 1246 },
     { city: 'Srinagar', count: 796 },
   ],
@@ -134,7 +134,7 @@ const STATE_CENTER_DATA = {
     { city: 'Thrissur', count: 223 },
     { city: 'Trivandrum', count: 279 }
   ],
-  'Madhya Pradesh': [
+  'MadhyaPradesh': [
 { city: 'Bhopal', count: 2910 },
     { city: 'Gwalior', count: 503 },
     { city: 'Indore', count: 3809 },
@@ -188,7 +188,7 @@ const STATE_CENTER_DATA = {
   'Sikkim': [
     { city: 'Gangtok', count: 560 },
   ],
-  'Tamil Nadu': [
+  'TamilNadu': [
 { city: 'Chennai', count: 3328 },
     { city: 'Coimbatore', count: 439 },
     { city: 'Karur', count: 211 },
@@ -205,7 +205,7 @@ const STATE_CENTER_DATA = {
   'Tripura': [
     { city: 'Agartala', count: 1130 },
   ],
-  'Uttar Pradesh': [
+  'UttarPradesh': [
     { city: 'Agra', count: 3506 },
     { city: 'Aligarh', count: 1010 },
     { city: 'Allahabad/ Prayagraj', count: 452 },
@@ -239,7 +239,7 @@ const STATE_CENTER_DATA = {
     { city: 'Sultanpur', count: 131 },
     { city: 'Varanasi', count: 5252 }
   ],
-  'West Bengal': [
+  'WestBengal': [
 { city: 'Asansol', count: 347 },
     { city: 'Burdwan', count: 425 },
     { city: 'Durgapur', count: 1776 },
