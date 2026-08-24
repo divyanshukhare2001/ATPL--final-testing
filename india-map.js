@@ -164,7 +164,7 @@ const STATE_CENTER_DATA = {
     { city: 'Dimapur', count: 464 },
     { city: 'Kohima', count: 722 },
   ],
-  'Odisha': [
+  'Orissa': [
     { city: 'Angul', count: 1098 },
     { city: 'Balasore', count: 2346 },
     { city: 'Baragarh', count: 138 },
