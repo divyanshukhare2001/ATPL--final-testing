@@ -243,6 +243,24 @@
 
 }
 
+.header-right > a:first-child {
+    background: #ffffff !important;
+    border-width: 3px;
+}
+
+.header-right > a:first-child img {
+    width: 30px !important;
+    height: 30px !important;
+}
+
+
+
+
+
+
+
+
+
 
 
 
