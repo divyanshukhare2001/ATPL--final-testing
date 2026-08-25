@@ -421,3 +421,84 @@
       transition: none !important;
     }
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* overseas-territory data */
+
+
+
+  .country-stats {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 24px;
+  flex-wrap: wrap;
+  padding-top: 40px;
+}
+
+.stat-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 28px;
+  background: linear-gradient(145deg, #111530, #0d1226);
+  border: 1px solid rgba(33, 92, 255, 0.25);
+  border-radius: 12px;
+  min-width: 220px;
+  justify-content: space-between;
+  transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.stat-item:hover {
+  transform: translateY(-4px);
+  border-color: rgba(33, 199, 245, 0.5);
+  box-shadow: 0 12px 28px rgba(33, 92, 255, 0.25);
+}
+
+.stat-name {
+  font-family: 'Sora', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #e6e9f5;
+  letter-spacing: 0.2px;
+}
+
+.stat-sep {
+  font-size: 16px;
+  color: #4a5578;
+  font-weight: 400;
+}
+
+.stat-value {
+  font-family: 'Geist', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  background: linear-gradient(90deg, #215cff, #21c7f5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+@media (max-width: 640px) {
+  .country-stats {
+    flex-direction: column;
+    align-items: center;
+  }
+  .stat-item {
+    width: 100%;
+    /* max-width: 320px; */
+  }
+}
